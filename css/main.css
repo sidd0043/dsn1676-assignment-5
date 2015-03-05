@@ -48,4 +48,19 @@ form{
 .listbox {
     padding: 1em;
     background-color: #fff;
+}  
+
+form input {
+    width: 60%;
+    text-align:center;
+    padding: 1em;
+    border: 2.4px solid #888888;
+    margin:0;
+    float:left;
+    margin:0;
+    float:left;
+    margin-left:5em;
 }
+
+
+    
