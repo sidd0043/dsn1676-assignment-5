@@ -109,6 +109,10 @@ li {
     margin:0;
 }
 
+.xbutton:hover{
+    background-color:#707070;
+    color:white;
+}
 
     
     
