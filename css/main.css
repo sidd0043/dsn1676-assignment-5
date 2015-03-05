@@ -74,5 +74,21 @@ form input {
 }
 
 .add:hover {
+    background-color:#707070;
+    color:white;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.close {
+    float:right;
+    overflow:hidden;
+}
+
+.complete {
+    text-decoration:line-through;
+    
 
     
