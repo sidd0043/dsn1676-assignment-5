@@ -89,6 +89,14 @@ ul{
 
 .complete {
     text-decoration:line-through;
+    color:#b1b1b1;
+}
+
+li {
+    padding-top: 1.6em;
+    padding-right: 4em;
+}
+
     
 
     
