@@ -1,18 +1,170 @@
+@charset "utf-8";
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
-@-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
-    box-sizing: border-box;
-    
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+  box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #ddd
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 2em;
+    color: #000;
+
+}
+
+form{
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 2em;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-box {
+    background-color: #eee;
+    border-radius:  1em 1em 0 0;
+}
+
+.listbox {
+    padding: 1em;
+    background-color: #fff;
+}
+
+form input {
+    width: 60%;
+    text-align: center;
+    padding: 1em;
+    border: 2.4px solid #888888;
+    margin: 0;
+    float: left;
+    margin-left: 5em;
+    
+}
+
+.add {
+    border: 1px solid #888888 ;
+    font-family: serif;
+    width: 13%;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 0 0.3em 0.3em 0;
+    margin: 0;
+    float: left;
+}
+
+.add:hover {
+background-color: #707070;
+color: white;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.close {
+    float: right;
+    overflow: hidden;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #b1b1b1;
+}
+    
+li {
+    padding-top: 1.6em;
+    padding-right: 4em;
+}
+
+.xbutton {
+    width: 8%;
+    padding: 0.5em;
+    font-family:'Permanent Marker', cursive;
+    color:#888888;
+    background-color: #eee;
+    border-radius: 0.4em;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0;
+}
+
+.xbutton:hover{
+    background-color: #707070;
+    color: white;
+}
+
+@media only screen and (min-width: 38em){
+    
+    .xbutton {
+        width: 3%;
+    }
+    
+    .add {
+        width: 8%;
+    }
+    
+     form input {
+        margin-left: 9em;
+    }
+}
+@media only screen and (min-width: 60em) {
+     
+    .xbutton {
+        width: 2%;
+    }
+    
+    .add {
+        width: 8%;
+        padding: 0.3em;
+    }
+    
+    form input {
+        margin-left: 13em;
+    }
+    
+}
+@media only screen and (min-width: 80em) {
+    .xbutton {
+        width: 2%;
+    }
+    
+    .add {
+        width: 5%;
+    }
+    
+      form input {
+        margin-left: 17em;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    .xbutton {
+        width: 2%;
+    }
+    .add {
+        width: 5%;
+    }
 }
