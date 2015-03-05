@@ -10,4 +10,6 @@ $form.on('submit', function (e) {
     var $li = $('<li>').html($input.val());
     var $inputDl = $('<button class="close xbutton ">x</button>');
     
-    $inputDl.on
+    $inputDl.on('click', function () {
+        $li.remove('li');
+    });
