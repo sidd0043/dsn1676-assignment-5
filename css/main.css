@@ -114,6 +114,22 @@ li {
     color:white;
 }
 
+@media only screen and(min-width: 60em) {
+    
+    .xbutton {
+        width: 2%;
+    }
+    
+    .add {
+        width: 5%;
+    }
+    
+    form input {
+        margin-left:17em;
+    }
+}
+
+
     
     
 
