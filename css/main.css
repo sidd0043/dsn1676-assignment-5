@@ -97,6 +97,20 @@ li {
     padding-right: 4em;
 }
 
+.xbutton {
+    width: 8%;
+    padding: 0.5em;
+    font-family:'permanent marker', cursive;
+    color:#888888;
+    background-color:#eee;
+    border-radius: 0.4em;
+    border:1px solid #ccc;
+    text-align:center;
+    margin:0;
+}
+
+
+    
     
 
     
